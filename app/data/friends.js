@@ -66,58 +66,7 @@ var friendData=[
       1
     ]
 },
-
 ];
-{
- var test =[
-      2,
-      2,
-      2,
-      2,
-      2,
-      2,
-      2,
-      2,
-      2,
-      2
-    ]
-}
-
 
   
-var Diff = [];
-var totalDifference=100
-console.log("test",test);
-
-friendData.forEach(function(item,index){
-   
-  for(var i = 0; i < 10; i++){
-  Diff.push(Math.abs(parseInt(test)-parseInt(item.scores[i])));
-  }
-  console.log('Diff in loop',Diff);
-  console.log(
-    Diff.reduce((a, b) => a + b)
-  )
-
-  iDifference=Diff.reduce((a, b) => a + b)
-
-  if(totalDifference>iDifference){
-    totalDifference = iDifference
-    matchName =item.name;
-    matchImg = item.photo;
-
-  }
-
-  Diff = [];
-  return Diff;
-  
-});
-
-console.log("totalDifference",totalDifference);
-console.log("friendArrName", matchName);
-console.log("friendArrPhotoloop",matchImg)
-
-
-
-
 module.exports = friendData;
