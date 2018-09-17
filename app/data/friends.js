@@ -1,11 +1,9 @@
-
-// 5. You should save your application's data inside of `app/data/friends.js` as an array of objects. Each of these objects should roughly follow the format below.
-
-var friendData=[
-{
-  "name":"Ahmed",
-  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-  "scores":[
+//sample data to get started
+var friendData = [
+  {
+    "name": "Ahmed",
+    "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "scores": [
       5,
       1,
       4,
@@ -17,11 +15,11 @@ var friendData=[
       4,
       1
     ]
-},
-{
-  "name":"Cortney",
-  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-  "scores":[
+  },
+  {
+    "name": "Cortney",
+    "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "scores": [
       2,
       5,
       2,
@@ -33,11 +31,11 @@ var friendData=[
       2,
       2
     ]
-},
-{
-  "name":"Charley",
-  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-  "scores":[
+  },
+  {
+    "name": "Charley",
+    "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "scores": [
       3,
       3,
       3,
@@ -48,12 +46,12 @@ var friendData=[
       2,
       2,
       2
-  ]
-},
-{
-  "name":"Alicia",
-  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-  "scores":[
+    ]
+  },
+  {
+    "name": "Alicia",
+    "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "scores": [
       3,
       1,
       5,
@@ -65,8 +63,8 @@ var friendData=[
       3,
       1
     ]
-},
+  },
 ];
 
-  
+
 module.exports = friendData;

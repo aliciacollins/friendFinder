@@ -1,6 +1,6 @@
 var path = require("path");
 
-module.exports = function(app) {
+module.exports = function (app) {
 
 
     app.get("/", function (req, res) {
@@ -14,15 +14,15 @@ module.exports = function(app) {
         res.sendFile(path.join(__dirname, "../public/survey.html"));
     });
 
-    app.get("*", function(req, res) {
+    app.get("*", function (req, res) {
         res.sendFile(path.join(__dirname, "../public/home.html"));
     });
 
 }
 
-       
 
-    
+
+
 // 6. Determine the user's most compatible friend using the following as a guide:
 
 //    * Convert each user's results into a simple array of numbers (ex: `[5, 1, 4, 4, 5, 1, 2, 5, 4, 1]`).
